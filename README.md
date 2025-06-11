@@ -11,18 +11,19 @@ Questo repository raccoglie cinque progetti di analisi avanzata su dati clinico-
 ├── results/                    # Report e grafici generati
 └── README.md                   # Questo file
 
-## 📊 Progetti inclusi
-1. Predizione di outcome riabilitativi
+# Progetti inclusi
+
+1. *Predizione di outcome riabilitativi*
 Obiettivo: Predire punteggio Barthel, delta Barthel.
 Tecniche: Regressione XGBoost, SHAP per interpretabilità.
 Impatto: Supporto alla pianificazione dei percorsi e confronti tra centri o team clinici.
 
-2. Analisi dei tempi di degenza
+2. *Analisi dei tempi di degenza*
 Obiettivo: Identificare fattori clinici e sociodemografici associati a ricoveri lunghi.
 Tecniche: Classificazione binaria (degenza ≥ 30gg), SHAP.
 Impatto: Ottimizzazione delle risorse, riduzione costi e miglioramento dell'efficienza.
 
-3. Clustering per pattern clinici nascosti
+3. *Clustering per pattern clinici nascosti*
 Obiettivo: Segmentare i pazienti in gruppi omogenei per stato clinico e traiettoria di cura.
 Tecniche: KMeans, PCA, silhouette analysis, profiling con grafici radar.
 Impatto: Personalizzazione della riabilitazione, miglioramento comunicazione medico-paziente.
@@ -31,12 +32,12 @@ Impatto: Personalizzazione della riabilitazione, miglioramento comunicazione med
 -Visualizzare le variabili discriminanti per ogni gruppo.
 -Integrare le informazioni in modelli predittivi o dashboard interattiv
 
-4. Modello predittivo di riammissioni ospedaliere
+4. *Modello predittivo di riammissioni ospedaliere*
 Obiettivo: Prevedere il rischio di riammissione a 30/90 giorni.
 Tecniche: Classificatori supervisati, analisi SHAP, bilanciamento classi.
 Impatto: Prevenzione secondaria, follow-up mirati, riduzione dei rientri in reparto. (Dato non sufficiente)
 
-5. Trend longitudinali e analisi epidemiologiche
+5. *Trend longitudinali e analisi epidemiologiche*
 Obiettivo: Monitorare l’evoluzione nel tempo di indicatori clinici e demografici.
 Tecniche: Analisi descrittiva + report automatico in PDF (generate_trend_report.py)
 Grafici inclusi: Pazienti unici per anno, Età media e percentuale grandi anziani, Barthel medio all’ingresso, Diagnosi prevalenti nel tempo
@@ -44,7 +45,7 @@ Impatto: Supporto a decisioni strategiche e politiche sanitarie.
 
 # 🚀 Come iniziare
 1. Clona il repository
-git clone https://github.com/TUO_USERNAME/rehab-intelligence.git
+git clone https://github.com/DanteTrb/rehab-intelligence.git
 cd rehab-intelligence
 
 2. Crea ambiente virtuale
