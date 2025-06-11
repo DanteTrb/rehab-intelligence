@@ -1,0 +1,37 @@
+# Ambienti virtuali
+.venv/
+venv/
+ENV/
+env/
+
+# File temporanei e cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.swp
+*.bak
+*.log
+
+# Dati sensibili e pesanti
+data/
+secure_data/
+*.parquet
+*.xlsx
+*.xls
+*.csv
+
+# Modelli salvati
+*.pkl
+*.joblib
+models/
+
+# File di output non essenziali
+*.ipynb_checkpoints
+results/tables/
+trend_longitudinali_report.pdf  # <-- opzionale: tienilo se vuoi condividere
+
+# Config locali
+.DS_Store
+*.code-workspace
+*.vscode/
