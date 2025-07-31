@@ -76,6 +76,6 @@ Riduzione significativa delle feature inutili grazie a filter/wrapper selection
 Cluster clinici coerenti con tipologie reali di pazienti
 
 ## 🧠 Autore
-Progetto sviluppato da Dante Trabassi, PhD Neuroscience, esperto in AI applicata alla riabilitazione e all’analisi del movimento.
+Progetto sviluppato da Dante Trabassi e Stefano Filippo Castiglia
 
 <!-- Co-author test for GitHub badge -->
